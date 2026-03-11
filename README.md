@@ -8,12 +8,13 @@
 
 ## Project Setup
 
-- [Install PHP](https://www.php.net/manual/en/install.php)
+- [Install PHP 8.4](https://www.php.net/manual/en/install.php)
 - [Install Composer](https://getcomposer.org/doc/00-intro.md)
 - Install Docker
   - For Mac: [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/) | [Orbstack](https://docs.orbstack.dev/quick-start#installation)
   - For Windows: [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
   - For Linux: [Docker Desktop](https://docs.docker.com/desktop/install/linux-install/)
+- PHP 8.4 is required for the current Composer dependency set.
 - Navigate to the project directory and run `composer install`
 - Duplicate the .env.example: `cp .env.example .env`
 - Start the project containers: `sail up -d`
